@@ -1,8 +1,8 @@
 
-import 'package:collection/collection.dart';
 
 void main() {
-
+  for (int year=2000;year<=2023;year++)
+    print('choec your parth year ? ${year}');
 }
 
 
@@ -93,8 +93,8 @@ print('The numerical mean is  = ${total}');*/
   for (var i=myNamber.length-1;i>0;i-- ){
     print(myNamber[i]);
   }*/
-
-/*// print culculations to number without +
+// print culculations to number without +
+/*
   var number1 = 5;
   var number2 = 3;
   var result = 0;
@@ -157,6 +157,8 @@ print('The numerical mean is  = ${total}');*/
 /* for (var i = 10; i >= 0; i--) {
     print("Innerloop: ${i}");
   }*/
+/*for (int year=2000;year<=2023;year++)
+print('choec your parth year ? ${year}');*/
 // ex: elseif
 /*
 var percentage = -20;
@@ -174,3 +176,17 @@ print ("Failed");
 print ("Wrong Value");
 }
 */
+// ex:switch
+/*var rule = "admin";
+switch(rule){
+case "admin":
+print("You have access to anything");
+break;
+case "user":
+print("You have access to your account");
+break;
+case "editor":
+print("You have access to your dashboard");
+break;
+default:
+print("No rule found | Wrong Rule");*/
