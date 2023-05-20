@@ -147,9 +147,30 @@ print('The numerical mean is  = ${total}');*/
   }
   catch(Exception ){
     print(Exception.toString());
-  }*
+  }
+
+
+
+
+ */
 //forمثال على
 /* for (var i = 10; i >= 0; i--) {
     print("Innerloop: ${i}");
   }*/
-
+// ex: elseif
+/*
+var percentage = -20;
+if (percentage >= 85 && percentage <= 100){
+print ("Excellent");
+} else if (percentage >= 75 && percentage < 85) {
+print ("Very Good");
+} else if (percentage >= 65 && percentage < 75){
+print ("Good");
+} else if (percentage >= 50 && percentage < 65){
+print ("Passed");
+} else if (percentage >= 0 && percentage < 50){
+print ("Failed");
+} else {
+print ("Wrong Value");
+}
+*/
