@@ -1,9 +1,12 @@
 
 
 void main() {
-  for (int year=2000;year<=2023;year++)
-    print('choec your parth year ? ${year}');
+
 }
+
+
+
+
 
 
 //1. اكتب برنامجا يأخذ قائمة بالأرقام ويعيد مجموع الأرقام الزوجية في القائمة.
@@ -69,6 +72,19 @@ void main() {
   }
   print(n);
 }*/
+/*var name = 'minaheshmat';
+var vowels = ['a', 'e', 'i', 'o', 'u'];
+var counter = 0;
+for (var i = 0; i < name.length; i++) {
+for (var j = 0; j < vowels.length; j++) {
+if (name[i] == vowels[j]) {
+counter++;
+break;
+}
+}
+}
+
+print(counter);*/
 //8. اكتب برنامجا يأخذ قائمة بالأرقام ويحسب المتوسط.
 /*
 var sum = 0;
@@ -93,6 +109,9 @@ print('The numerical mean is  = ${total}');*/
   for (var i=myNamber.length-1;i>0;i-- ){
     print(myNamber[i]);
   }*/
+/*var numbers ="1234567789";
+for (int i=9;i>=0;i--){
+print(i);*/
 // print culculations to number without +
 /*
   var number1 = 5;
@@ -190,3 +209,20 @@ print("You have access to your dashboard");
 break;
 default:
 print("No rule found | Wrong Rule");*/
+//حساب مجموع دراجات طالب
+/*
+var total =0;
+print("Enter Firest Number =");
+int? FirestNumber =int.parse(stdin.readLineSync()!);
+print("Enter Scound Number =");
+int? ScoundNumber =int.parse(stdin.readLineSync()!);
+print("Enter thard Number =");
+int? thardNumber =int.parse(stdin.readLineSync()!);
+print("Enter foreNumbers =");
+int? foreNumbers =int.parse(stdin.readLineSync()!);
+total +=FirestNumber+ScoundNumber+thardNumber+foreNumbers;
+print(total) ;
+*/
+
+//
+
